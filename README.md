@@ -1,18 +1,32 @@
-# Project
+# Cartpole Visualizer
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This project is the Cartpole visualizer used by the Bonsai Platform.
 
-As the maintainer of this project, please make a few updates:
+![Cart and pole Visualizer](Cartpole.png)
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+# Installing
+
+You will need to clone and build the `microsoft-bonsai-visualizer` library before building this project. The library must live next to this project in the parent directory.
+
+```bash
+cd ~/
+git clone git@github.com:microsoft/microsoft-bonsai-visualizer.git
+cd ~/microsoft-bonsai-visualizer
+npm install
+npm run build
+```
+
+## Building
+
+```bash
+cd ~/bonsai-viz-cartpole
+npm install
+npm start
+```
 
 ## Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
@@ -26,8 +40,8 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 
 ## Trademarks
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
+trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.

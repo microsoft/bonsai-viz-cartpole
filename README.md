@@ -1,6 +1,6 @@
-# Cartpole Visualizer
+# Bonsai Cartpole Visualizer
 
-This project is the Cartpole visualizer used by the Bonsai Platform.
+This project is the visualizer used with the [cartpole-py](https://github.com/microsoft/cartpole-py) simulator.
 
 ![Cart and pole Visualizer](Cartpole.png)
 

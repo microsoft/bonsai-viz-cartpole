@@ -10,7 +10,7 @@
     "build": "npm run lint && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d public"
+    "deploy": "npm run lint && PUBLIC_URL=/ react-scripts build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
